@@ -1,0 +1,18 @@
+chmod 000 db.conf #ez miért 000 ha csak az olvasási jogot kellett elvenni? attol még nem lehet irhato es vagy futtathato?
+
+Az 1. feladatnál az én megoldásom is helyes?
+
+A 2. feladatban miért kell ez ha enélkül is megkapjuk az expected output-ot?
+if [ -f "$fajl" ]
+            then
+                fajlnev=$(basename "$fajl")
+
+3-as feladatban miért használunk || -t && helyett?
+
+4-es feladatban hogy lesz az 1-ből kettő? (" 2 mappa létrehozva")
+
+5-os feladatban a backup.sh ha nem futtatható akkor miért 644 és nem 664 (úgy ahogy eredetileg is van, hiszen az sem futtatható)?
+a rotate.sh miért nem 777 hanem 755 ha futtatható?
+- mi a különbség ebben a feladatban a -f és a -e között?
+
+6-os feladatnál az én megoldásom is helyes?
