@@ -1,0 +1,83 @@
+#SZÓBELI
+----------------
+#1.tétel
+#!/bin/bash
+
+szam=11
+
+if [$szam -gt 10]
+then
+    echo "$szam nagyobb 10-nél."
+else
+    echo "$szam kisebb 10-nél."
+fi
+
+# (a 2. tetel is kb ugyanez)
+---------------------------
+#3. tétel
+
+#!/bin/bash
+
+if [-f adatok.txt]
+then
+    echo "A fájl létezik."
+else 
+    echo "A fájl nem létezik."
+fi
+
+------------------------
+#4. tétel
+
+#!/bin/bash
+
+echo "Ez egy próbaüzenet." > kimenet.txt
+
+-------------------------
+#5.tétel
+
+$szam = 5
+
+if ($szam -eq 5) {
+    Write-Host "A szám egyenlő 5-tel."
+}
+
+--------------------------
+#6.tétel
+
+# Egyik objektumból átviszi a másik objektumba az információkat, azaz a pipeline információ továbbításra szolgál két informació között.
+
+Get-Process | Sort-Object ProcessName
+
+-------------------------------
+#7.tétel
+
+#(.sql kiterjesztessel)
+
+# SELECT = egy tábla elemeinek a kiválasztása
+
+SELECT * FROM Tanulok;
+
+--------------------------------
+#8.tétel
+
+# bizonyos feltételek alapján való szűrésre szolgál a WHERE
+
+SELECT * FROM Tanulok;
+WHERE eletkor = 18
+
+------------------------
+#9.tétel
+
+#Az IP cím arra szolgál hogy tudja azonosítani az eszközt a hálózati térben.
+
+198.168.1.10
+
+----------------------------
+#10.tétel
+
+Fizikai gép:
+- Windows 11 gazdagép
+- Ubuntu Server virtuális gép
+- Windows Server virtuális gép
+
+-----------------------------------------
