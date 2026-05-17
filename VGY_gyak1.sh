@@ -51,4 +51,4 @@ do
     fi
 done
 
-echo "A 7 fokos érték $hetfok-szor szerepel."
+echo "A 7 fokos érték $hetfok-szer szerepel."git
